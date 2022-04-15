@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <script src="libs/jquery.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="myDiv">
+        <div id="myForm">
+            <input id="input-title" type="text" placeholder="Tiêu đề công việc">
+            <button id="btn-addTask">Thêm</button>
+        </div>
+        <div id="textTitle">
+            <p>Các công việc cần thực hiện</p>
+        </div>
+        <div id="taskList">
+            <!-- content -->
+        </div>
+        <div id="taskListComplete">
+            <!-- content -->
+        </div>
+        <div id="taskListDangThucHien">
+            <!-- content -->
+        </div>
+        <div id="footer">
+            <button id="btn-tabAll" style="background-color: gray; color: white;">Tất cả</button>
+            <button id="btn-tabDangThucHien">Đang thực hiện</button>
+            <button id="btn-tabComplete">Hoàn thành</button>
+        </div>
+    </div>
+    
+    <script src="js/popup.js"></script>
+</body>
+</html>

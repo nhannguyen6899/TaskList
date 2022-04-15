@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+    <script src="libs/jquery.js"></script>
+    <style>
+        body{
+            background-color: gray;
+        }
+
+        #myOption{
+            background-color: white;
+            margin: auto;
+            height: 200px;
+            width: 700px;
+            text-align: center;
+        }
+
+        #title-setting {
+            background-color: greenyellow;
+            height: 60px;
+        }
+
+        #title-setting h1 {
+            line-height: 60px;
+        }
+
+        #setting-BackgroundColor {
+            width: 500px;
+            height: 75px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #setting-BackgroundColor h4 {
+            float: left;
+        }
+
+        #setting-BackgroundColor input {
+            float: right;
+        }
+
+        #action{
+            margin: auto;
+            height: 65px;
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #action button{
+            height: 35px;
+            width: 100px;
+        }
+
+        #action button:hover {
+            cursor: pointer;
+            background-color: gray;
+            color: white;
+        }
+
+        #action #btn-save {
+            background-color: rgb(59, 157, 232);
+        }
+    </style>
+</head>
+<body>
+    <div id="myOption">
+        <div id="title-setting">
+            <h1>Setting Extension</h1>
+        </div>
+        <div id="setting-BackgroundColor">
+            <h3>Background color extension</h4>
+            <input type="color" id="color" value="#e66465">
+        </div>
+        <div id="action">
+            <button id="btn-save">Save</button>
+            <button id="btn-restore">Restore</button>
+        </div>
+    </div>
+
+    <script src="js/options.js"></script>
+</body>
+</html>

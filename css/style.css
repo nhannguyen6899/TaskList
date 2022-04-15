@@ -1,0 +1,110 @@
+html, body {
+    font-size: initial;
+    background-color: #ffffff;
+}
+
+#myDiv {
+    width: 400px;
+}
+
+#myForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+#myForm input {
+    width: 275px;
+    height: 25px;
+}
+
+#myForm button {
+    background-color: gray;
+    color: white;
+    height: 31px;
+    width: 85px;
+}
+
+#myForm button:hover {
+    background-color: greenyellow;
+    color: black;
+}
+
+#textTitle p {
+    text-align: center;
+    font-weight: bolder;
+    font-family: system-ui;
+}
+
+.task {
+    display: inline-block;
+    width: 375px;
+    margin-left: 12px;
+}
+
+.task div {
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+}
+
+.task .div-action {
+    float: right;
+}
+
+.task .div-action button {
+    height: 30px;
+    color: white;
+}
+
+.task .div-action .btn-completeTask {
+    background-color: green;
+}
+
+.task .div-action .btn-completeTask:hover {
+    background-color: rgb(0, 80, 40);
+}
+
+.task .div-action .btn-removeTask {
+    background-color: red;
+}
+
+.task .div-action .btn-removeTask:hover {
+    background-color: darkred;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.stt {
+    width: 26px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.btn-completeTask:hover {
+    background-color: black;
+}
+
+#footer {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer button {
+    height: 30px;
+    width: 115px;
+}
+
+#footer button:hover {
+    background-color: gray;
+    color: white;
+}
+
+#taskListComplete, #taskListDangThucHien {
+    display: none;
+}
